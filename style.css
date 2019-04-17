@@ -1,0 +1,209 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #E5E5E5;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: fixed;
+    background-color: white;
+    height: 50px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left p{
+    margin-left: 30px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header-right p{
+    margin-right: 30px;
+}
+    
+
+.TOP-PAGE{
+    display: flex;
+    background-image: url(img/IMG_6641\ \(1\).jpg);
+    height: 100vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.TOP-PAGE h1{
+    font-size: xx-large;
+    font: bold;
+    margin-top: -230px;
+}
+
+.MOTTO{
+    font-size: small;
+    margin-top: 20px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.MOTTO:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.MOTTO:last-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.DISCRIPTION{
+    height: 100vh;
+}
+
+.PICTURES{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px; 
+    margin-bottom: 150px; 
+}
+
+.beans img{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px; 
+}
+
+.coffee img{
+    widows: 300px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.PICTURES p{
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.Contact{
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+    height: 35vh;
+    margin-top: 10px;
+    justify-content: space-around;
+    margin: 10px auto;
+    display: inline block;
+}
+
+.contactus{
+    margin-top: 80px;
+    margin-left: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: tan;
+}
+
+.form{
+    display: flex;
+    height: 20px;
+    width: 200px;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.name{
+    margin: 50px;
+}
+.email{
+    margin: 50px;
+}
+.form-group{
+    margin: 20px;
+    padding: 20px;
+}
+
+.submit{
+background-color: white;
+color: tan;
+border: 1px solid tan;
+text-decoration: none;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+border-radius: 10px;
+opacity: 0.8;
+
+}
+.submit:hover{
+    color: white;
+    background-color: tan;
+    border: 1px solid tan;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: background-color ease-in 1s;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #E5E5E5;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: rgb(235, 206, 170);
+    height: 50px;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+}
+.info{
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+    height: 45vh;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.ggmap{
+    justify-content: left;
+    margin-right: 500px;
+}
+
+.youtube{
+    justify-content: right;
+    margin-left: 500px;
+    margin-top: -253px; 
+}
